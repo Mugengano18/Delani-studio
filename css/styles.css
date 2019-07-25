@@ -35,12 +35,13 @@
     text-align: center;
     padding-top: 30px;
     font-size: 30px;
+    font-weight: bolder;
 }
 .about p{
     text-align: center;
     font-size: 18px;
     margin-left: 100px;
-    margin-right: auto;
+    margin-right: 100px;
 }
 .services{
     background-image: url(../images/s_image.jpg);
@@ -51,17 +52,20 @@
 }
 .services h2{
     padding-top: 100px;
+    font-weight: bolder;
 }
 .services p{
     font-size: 20px;
 }
 .todo{
-    background-size: 30px;
+    background-size: 50px;
     
 }
 .todo h1{
     text-align: center;
     padding-top:30px;
+    font-weight: bolder;
+    font-size: 30px;
 }
 .todo h2{
     font-size: 25px;
@@ -79,10 +83,11 @@
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
+    margin-top: 50px;
 }
 .contact{
     background-image: url("../images/c_image.jpg");
-    height:300px
+    height:300px;
 }
 
 
