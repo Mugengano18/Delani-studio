@@ -98,21 +98,14 @@
     margin-right: 100px;
     margin-left:100px;
 }
-/* .column-md-3 .hover{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 5s ease;
-}
-.column-md-3:hover .hover{
-    opacity: 0;
-} */
 .contact{
     background-image: url("../images/c_image.jpg");
     height:300px;
-    margin-top: 300px;
+    margin-top: 100px;
+}
+input,textarea{
+    opacity: 0;
+    border: 3px solid black;
 }
 
 
