@@ -3,9 +3,20 @@
     background-size: 1300px 1000px;
     height: 700px;
     background-repeat: no-repeat;
-     /* display: flex;
-    align-items: center;
-     */
+    text-align: center;
+    padding-top: 150px;
+    line-height: 30px;
+}
+.introduction h1{
+    font-size: 50px;
+    color: white;
+}
+.introduction p{
+    font-size: 20px;
+    color:white;
+}
+.mouseimg{
+    padding-top:150px;
 }
 #logo{
     display: flex;
@@ -16,6 +27,18 @@
     display: flex;
     justify-content: center;
 }
+.about{
+    height: 300px;
+}
+.about h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.about p{
+    text-align: center;
+    font-size: 18px;
+}
 .services{
     background-image: url(../images/s_image.jpg);
     height: 200px;
@@ -24,5 +47,7 @@
     background-image: url("../images/c_image.jpg");
     height:300px
 }
+
+
 
 
