@@ -41,12 +41,25 @@
 }
 .services{
     background-image: url(../images/s_image.jpg);
-    height: 200px;
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.services h1{
+    padding-top: 100px;
+}
+.services p{
+    font-size: 20px;
+}
+.todo{
+    background-size: 30px;
 }
 .contact{
     background-image: url("../images/c_image.jpg");
     height:300px
 }
+
 
 
 
