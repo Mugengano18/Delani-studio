@@ -1,0 +1,28 @@
+.introduction{
+    background-image: url("../images/h_img.jpg");
+    background-size: 1300px 1000px;
+    height: 700px;
+    background-repeat: no-repeat;
+     /* display: flex;
+    align-items: center;
+     */
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#introp{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    background-image: url(../images/s_image.jpg);
+    height: 200px;
+}
+.contact{
+    background-image: url("../images/c_image.jpg");
+    height:300px
+}
+
+
