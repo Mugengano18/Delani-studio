@@ -1,11 +1,12 @@
 .introduction{
     background-image: url("../images/h_img.jpg");
-    background-size: 1300px 1000px;
+    background-size: cover;
     height: 700px;
     background-repeat: no-repeat;
     text-align: center;
     padding-top: 150px;
     line-height: 30px;
+    margin: 0;
 }
 .introduction h1{
     font-size: 50px;
@@ -38,6 +39,8 @@
 .about p{
     text-align: center;
     font-size: 18px;
+    margin-left: 100px;
+    margin-right: auto;
 }
 .services{
     background-image: url(../images/s_image.jpg);
@@ -46,7 +49,7 @@
     color: white;
     font-family: 'Nunito', sans-serif;
 }
-.services h1{
+.services h2{
     padding-top: 100px;
 }
 .services p{
@@ -54,6 +57,28 @@
 }
 .todo{
     background-size: 30px;
+    
+}
+.todo h1{
+    text-align: center;
+    padding-top:30px;
+}
+.todo h2{
+    font-size: 25px;
+}
+.todo p{
+    display: none;
+}
+.todo img,p{
+    cursor: pointer;
+}
+.todo p{
+    margin-right: 800px;
+}
+.port h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
 }
 .contact{
     background-image: url("../images/c_image.jpg");
