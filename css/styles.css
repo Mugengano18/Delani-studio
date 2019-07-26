@@ -11,9 +11,10 @@
 .introduction h1{
     font-size: 50px;
     color: white;
+    line-height: 90px;
 }
 .introduction p{
-    font-size: 20px;
+    font-size: 15px;
     color:white;
 }
 .mouseimg{
@@ -31,7 +32,7 @@
 .about{
     height: 300px;
 }
-.about h1{
+.about h2{
     text-align: center;
     padding-top: 30px;
     font-size: 30px;
@@ -39,9 +40,11 @@
 }
 .about p{
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 100px;
     margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .services{
     background-image: url(../images/s_image.jpg);
@@ -50,7 +53,7 @@
     color: white;
     font-family: 'Nunito', sans-serif;
 }
-.services h2{
+.services h3{
     padding-top: 100px;
     font-weight: bolder;
 }
@@ -68,7 +71,7 @@
     font-size: 30px;
 }
 .todo h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 .todo p{
     display: none;
@@ -85,6 +88,15 @@
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 100px;
+}
+#head1{
+    margin-left:15px;
+}
+#head2{
+    margin-right: 15px;
+}
+#head3{
+    margin-right: 10px;
 }
 .port h1{
     text-align: center;
