@@ -79,9 +79,6 @@
 .todo img,p{
     cursor: pointer;
 }
-/* .todo p{
-    margin-right: 800px;
-} */
 .todo .row{
     display: flex;
     justify-content: space-between;
