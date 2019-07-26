@@ -17,7 +17,7 @@
 - this wesite is an open-source website.
 
 
-## contancts
+## contacts
 
 - Mugengano alice
 - tel:0785948755
