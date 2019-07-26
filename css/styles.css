@@ -96,7 +96,7 @@
     margin-right: 15px;
 }
 #head3{
-    margin-right: 10px;
+    margin-right: 10px
 }
 .port h1{
     text-align: center;
@@ -109,6 +109,14 @@
     justify-content: space-around;
     margin-right: 100px;
     margin-left:100px;
+}
+.port p{
+    display:none;
+}
+.port img:hover{
+    opacity: 0.2;
+    cursor: pointer;
+    transition: 2s;
 }
 .contact{
     background-image: url("../images/c_image.jpg");
@@ -147,10 +155,12 @@
     justify-content: flex-start;
 }
 .social{
-    margin-top: 20px;
+    margin-top: 70px;
     text-align: center;
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-content: unset;
+
 }
 .end{
     text-align: center;
