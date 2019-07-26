@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
     
     $(".row1").hover(function(){
-        $(".imge1").css({"opacity":"0.5","transition":"3s"});
+        $(".imge1").css({"opacity":"0.5","transition":"3s","display":"block"});
         $("#parid1").show();
     },
     function(){
