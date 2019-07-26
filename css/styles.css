@@ -111,13 +111,19 @@
     margin-left:100px;
 }
 .port p{
-    display:none;
+    position: relative;
+    bottom: 100px;
+    left:40px;
+    font-size: 30px;
+    color:black;
+    display: none;
+    font-family: 'Farro', sans-serif;
 }
-.port img:hover{
+/* .port img:hover{
     opacity: 0.2;
     cursor: pointer;
-    transition: 2s;
-}
+    transition: 2s; 
+} */
 .contact{
     background-image: url("../images/c_image.jpg");
     height:500px;
@@ -133,26 +139,32 @@
     color:white;
 }
 .contact input,textarea{
-    background-color: transparent;
-    color: aliceblue;
-    
-    
+    background: none;
+   
 }
-.contact input{
-    margin-top: 40px;
-    margin-left:300px;
-    width: 250px;
+::placeholder{
+    color: white;
 }
 .contact textarea{
-    margin-top: 4px;
-    margin-left:400px;
+    margin-left: 300px;
+    margin-top: 20px;
 }
-#submit{
-    background-color: black;
-    color:white;
-    width: 90px;
-    display: flex;
-    justify-content: flex-start;
+input{
+    margin-left:300px;
+    margin-top: 40px;
+}
+#email{
+    position: relative;
+    right:200px;
+    width: 300px;
+}
+#name{
+    width: 300px;
+}
+button{
+    position: relative;
+    top:40px;
+    right:400px;
 }
 .social{
     margin-top: 70px;
