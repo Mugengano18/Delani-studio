@@ -81,7 +81,7 @@
 } */
 .todo .row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 100px;
@@ -100,19 +100,39 @@
 }
 .contact{
     background-image: url("../images/c_image.jpg");
-    height:400px;
+    height:500px;
     margin-top: 100px;
+    margin-left: 0;
+    background-size: cover;
+
 }
-input,textarea{
-    opacity: 0.2;
-    border: 3px solid white;
-    margin-left:200px;
-    margin-right: 0px; 
-    margin-top: 20px
-   
+.contact h2{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 0;
+    color:white;
 }
-input{
-    width: 400px;
+.contact input,textarea{
+    background-color: transparent;
+    color: aliceblue;
+    
+    
+}
+.contact input{
+    margin-top: 40px;
+    margin-left:300px;
+    width: 250px;
+}
+.contact textarea{
+    margin-top: 4px;
+    margin-left:400px;
+}
+#submit{
+    background-color: black;
+    color:white;
+    width: 90px;
+    display: flex;
+    justify-content: flex-start;
 }
 .social{
     margin-top: 20px;

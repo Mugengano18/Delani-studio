@@ -11,4 +11,16 @@ $(document).ready(function(){
         $("#par3").toggle();
         $(".hidden3").toggle();
     });
+
 });
+function message(){
+var name,email,message;
+name=document.getElementById("name").value;
+console.log(name);
+email=document.getElementById("email").value;
+console.log(email);
+message=document.getElementById("text").value;
+console.log(message);
+}
+console.log(message());
+

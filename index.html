@@ -47,12 +47,13 @@
                                     <div class="hidden1">
                                             <img src="images/design_icon.png" alt="Design" id="img1" class="click1">
                                         </div>
+                                        <h2 id="head1">Design</h2>
                                             <div class="header-showing1">
-                                                    <p class="click1" id="par1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
-                                                            Throughout your project,our designers create and implement visual design and workflows, solicit user feedback and work with y
+                                                    <p class="click1" id="par1">Our design practice offers a full range of services<br> including brand strategy, interaction and visual<br> design and user experience testing.<br>
+                                                            Throughout your project,our designers<br> create and implement visual design and workflows,<br> solicit user feedback and work with y
                                                             to make sure what gets built is what is needed.</p>
                                             </div>
-                                            <h2 id="head1">Design</h2>
+                                            
                             </div>
                             <div class="column-md-4">
                                     <div class="hidden2"> 
@@ -95,12 +96,18 @@
                         </div>
                     </div>
                     <div class="contact" id="contact">
+                        <h2>CONTACT US</h2>
                         <div class="row">
-                                <input type="text" id="name" value="Name..." id="col">
-                                <input type="text" id="email" value="e-mail...">
-                        </div><br>
+                            <form>
+                                    <input type="text" id="name" placeholder="Name..." id="col" id="name">
+                                    <input type="text" id="email" placeholder="e-mail..." id="email">
+                            </form> 
+                        </div>
                         <div class="row">
-                                <textarea rows="10" cols="80">message...</textarea>
+                            <form>
+                                    <textarea rows="10" cols="60" placeholder="message..." id="text"></textarea>
+                                    <input type="submit" value="send" id="submit" onclick="message()">
+                            </form>
                         </div>
                     </div>
                     <div class="social">
