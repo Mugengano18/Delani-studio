@@ -112,19 +112,10 @@
 }
 .port p{
   font-family: 'Farro', sans-serif;
-  opacity: 1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
+  display: none;
+
 }
-/* .port img:hover{
-    opacity: 0.2;
-    cursor: pointer;
-    transition: 2s; 
-} */
 .contact{
     background-image: url("../images/c_image.jpg");
     height:500px;
