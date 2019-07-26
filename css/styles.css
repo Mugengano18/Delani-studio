@@ -107,14 +107,18 @@
     margin-right: 100px;
     margin-left:100px;
 }
+.port img{
+    display: block;
+}
 .port p{
-    position: relative;
-    bottom: 150px;
-    left:40px;
-    font-size: 30px;
-    color:black;
-    display: none;
-    font-family: 'Farro', sans-serif;
+  font-family: 'Farro', sans-serif;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 /* .port img:hover{
     opacity: 0.2;
