@@ -114,6 +114,9 @@
   font-family: 'Farro', sans-serif;
   text-align: center;
   display: none;
+  position: absolute;
+  transform: translate(20px);
+  font-size: 40px;
 
 }
 .contact{
