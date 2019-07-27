@@ -177,7 +177,7 @@ button{
 .end p{
     line-height: 12px;
 }
-@media screen and (min-width:600px){
+@media screen and (max-width:800px){
     .introduction{
         height:850px;
     }
@@ -218,7 +218,7 @@ button{
     }
     
 }
-@media screen and (min-width:300px){
+@media screen and (max-width:300px){
     .contact{
         height: 700px;
     }
@@ -245,7 +245,7 @@ button{
         overflow: hidden;
     }
 }
-@media screen and (min-width:200px){
+@media screen and (max-width:500px){
     .container{
         overflow: hidden;
     }
