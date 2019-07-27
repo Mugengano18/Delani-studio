@@ -17,7 +17,7 @@ $(document).ready(function(){
     });
     
     $(".row1").hover(function(){
-        $(".imge1").css({"opacity":"0.5","transition":"3s"});
+        $(".imge1").css({"opacity":"0.2","transition":"3s"});
         $("#parid1").show();
     },
     function(){
@@ -25,7 +25,7 @@ $(document).ready(function(){
         $("#parid1").hide();
     });
     $(".row2").hover(function(){
-        $(".imge2").css({"opacity":"0.5","transition":"3s"});
+        $(".imge2").css({"opacity":"0.2","transition":"3s"});
         $("#parid2").show();
     },
     function(){
@@ -33,7 +33,7 @@ $(document).ready(function(){
         $("#parid2").hide();
     });
     $(".row3").hover(function(){
-        $(".imge3").css({"opacity":"0.5","transition":"3s"});
+        $(".imge3").css({"opacity":"0.2","transition":"3s"});
         $("#parid3").show();
     },
     function(){
@@ -41,7 +41,7 @@ $(document).ready(function(){
         $("#parid3").hide();
     });
     $(".row4").hover(function(){
-        $(".imge4").css({"opacity":"0.5","transition":"3s"});
+        $(".imge4").css({"opacity":"0.2","transition":"3s"});
         $("#parid4").show();
     },
     function(){
@@ -49,7 +49,7 @@ $(document).ready(function(){
         $("#parid4").hide();
     });
     $(".row5").hover(function(){
-        $(".imge5").css({"opacity":"0.5","transition":"3s"});
+        $(".imge5").css({"opacity":"0.2","transition":"3s"});
         $("#parid5").show();
     },
     function(){
@@ -57,7 +57,7 @@ $(document).ready(function(){
         $("#parid5").hide();
     });
     $(".row6").hover(function(){
-        $(".imge6").css({"opacity":"0.5","transition":"3s"});
+        $(".imge6").css({"opacity":"0.2","transition":"3s"});
         $("#parid6").show();
     },
     function(){
@@ -65,7 +65,7 @@ $(document).ready(function(){
         $("#parid6").hide();
     });
     $(".row7").hover(function(){
-        $(".imge7").css({"opacity":"0.5","transition":"3s"});
+        $(".imge7").css({"opacity":"0.2","transition":"3s"});
         $("#parid7").show();
     },
     function(){
@@ -73,7 +73,7 @@ $(document).ready(function(){
         $("#parid7").hide();
     });
     $(".row8").hover(function(){
-        $(".imge8").css({"opacity":"0.5","transition":"3s"});
+        $(".imge8").css({"opacity":"0.2","transition":"3s"});
         $("#parid8").show();
     },
     function(){

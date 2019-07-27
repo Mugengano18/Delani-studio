@@ -10,15 +10,19 @@
 - the part about them
 - what they do
 - their portifolios
--how to contact them
+- how to contact them
 
 
-## Lincense
-- this wesite is an open-source website.
 
+## technologies used
+- HTML & CSS
+- JAVASCRIPT
 
 ## contacts
 
-- Mugengano alice
+- Name:Mugengano alice
 - tel:0785948755
 - e-mail:mugenganoagmail.com
+
+##License
+- copyright (c) [2019] [Mugengano Alice]
