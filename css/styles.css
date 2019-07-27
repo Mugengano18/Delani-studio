@@ -4,9 +4,9 @@
     height: 700px;
     background-repeat: no-repeat;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
     line-height: 30px;
-    margin: 0;
+    margin-bottom: 0;
 }
 .introduction h1{
     font-size: 50px;
@@ -18,7 +18,7 @@
     color:white;
 }
 .mouseimg{
-    padding-top:150px;
+    padding-top:200px;
 }
 #logo{
     display: flex;
@@ -115,8 +115,9 @@
   text-align: center;
   display: none;
   position: absolute;
-  transform: translate(20px);
   font-size: 40px;
+  padding-top: 80px;
+  padding-left: 40px;
 
 }
 .contact{
@@ -176,8 +177,76 @@ button{
 .end p{
     line-height: 12px;
 }
-
-
-
-
-
+@media screen and (min-width:600px){
+    .introduction{
+        height:850px;
+    }
+    .about{
+        height: 500px;
+    }
+    .todo{
+        height: 500px;
+    }
+    .todo .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact{
+        height: 700px;
+    }
+    #name{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    #email{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    textarea{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 200px;
+    }
+    button{
+        color: black;
+    }
+    .container{
+        overflow: hidden;
+    }
+    
+}
+@media screen and (min-width:300px){
+    .contact{
+        height: 700px;
+    }
+    #name{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    #email{
+        width: 200px;
+        position: relative;
+        right: 200px;
+    }
+    textarea{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 200px;
+    }
+    button{
+        color: black;
+    }
+    .container{
+        overflow: hidden;
+    }
+}
+@media screen and (min-width:200px){
+    .container{
+        overflow: hidden;
+    }
+}
